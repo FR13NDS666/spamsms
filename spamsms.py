@@ -7,7 +7,7 @@ url = "https://www.indihome.co.id/verifikasi-layanan/login-otp"
 
 no = input("no : ")
 jml = input("jumlah spam : ")
-Delay = delay(" 1 : ") 
+Delay = delay("10:") 
 
 token = s.get(url).text
 token = re.findall(r"name=\"_token\" value=\"(.*?)\"", token)[0]
